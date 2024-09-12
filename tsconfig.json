@@ -1,0 +1,10 @@
+{
+   "compilerOptions": {
+      "target": "es6", // Target JavaScript version (ES6)
+      "module": "commonjs", // Use CommonJS modules
+      "outDir": "./dist", // Output directory for compiled JS
+      "strict": true, // Enable strict type-checking
+      "esModuleInterop": true // Allow ES module imports
+   },
+   "include": ["src/**/*"] // Include all files in the src folder
+}
